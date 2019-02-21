@@ -1,0 +1,27 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	ch := make(chan string)
+	//go start a goroutine
+	for i := 0; i < 5000; i++ {
+		go printHelloWorld(i, ch)
+	}
+
+	for ; ;  {
+		msg := <- ch
+		fmt.Println(msg)
+	}
+}
+
+func printHelloWorld(i int, ch chan string)  {
+	for  {
+		ch <- fmt.Sprintf(
+			"Hello world from foroutine %d!\n", i)
+
+	}
+
+}
