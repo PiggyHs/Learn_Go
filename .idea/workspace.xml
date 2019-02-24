@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98a8f52f-3ea3-4fc7-9d36-1d6fee8953ae" name="Default Changelist" comment="Revert &quot;hello world&quot;&#10;&#10;This reverts commit a334ca12a4e5e79580199b41667dcabe5422aab1." />
+    <list default="true" id="98a8f52f-3ea3-4fc7-9d36-1d6fee8953ae" name="Default Changelist" comment="Revert &quot;hello world&quot;&#10;&#10;This reverts commit a334ca12a4e5e79580199b41667dcabe5422aab1.">
+      <change afterPath="$PROJECT_DIR$/cmd/goExample/rangAndClose.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/hello/helloworld.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/http/httpService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/pipelineDemo/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/sortDemo/sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pipeline/nodes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/algorithm/sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/interface.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/doc/interface.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funAndVar/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/funAndVar/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goExample/channelExample.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/goExample/channelExample.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goExample/rangAndClose.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/helloworld.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloWorldconc/conc.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/helloWorldconc/conc.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,20 +28,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hello/helloworld.go">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pipeline/nodes.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="438">
+              <caret line="94" column="27" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="27" />
+              <folding>
+                <element signature="e#18#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/funAndVar/hello.go">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cmd/pipelineDemo/demo.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="141">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,8 +58,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/go</dir>
+    </dirStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
@@ -47,6 +74,7 @@
     <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
     <option name="urls">
       <list>
         <option value="file://$PROJECT_DIR$" />
@@ -59,14 +87,25 @@
         <option value="$PROJECT_DIR$/GoProject/helloWorld/main.go" />
         <option value="$PROJECT_DIR$/HelloWorld/helloworld.go" />
         <option value="$PROJECT_DIR$/helloworld.go" />
+        <option value="$PROJECT_DIR$/algorithm/sort.go" />
         <option value="$PROJECT_DIR$/funAndVar/hello.go" />
+        <option value="$PROJECT_DIR$/goroutine/go.go" />
+        <option value="$PROJECT_DIR$/channelExample.go" />
         <option value="$PROJECT_DIR$/hello/helloworld.go" />
+        <option value="$PROJECT_DIR$/goExample/channelExample.go" />
+        <option value="$PROJECT_DIR$/goExample/rangAndClose.go" />
+        <option value="$PROJECT_DIR$/http/httpService.go" />
+        <option value="$PROJECT_DIR$/helloWorldconc/conc.go" />
+        <option value="$PROJECT_DIR$/sortDemo/sort.go" />
+        <option value="$PROJECT_DIR$/cmd/pipelineDemo/pipeline.go" />
+        <option value="$PROJECT_DIR$/pipeline/nodes.go" />
+        <option value="$PROJECT_DIR$/cmd/pipelineDemo/demo.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
-    <option name="y" value="37" />
+    <option name="x" value="701" />
+    <option name="y" value="27" />
     <option name="width" value="1400" />
     <option name="height" value="754" />
   </component>
@@ -88,7 +127,18 @@
             <path>
               <item name="GoLandProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoLandProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="funAndVar" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoLandProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoLandProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="pipelineDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoLandProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoLandProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="pipeline" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -98,7 +148,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="GO_FMT" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -110,13 +160,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd" />
+      <recent name="$PROJECT_DIR$/goExample" />
+      <recent name="$PROJECT_DIR$/doc" />
       <recent name="$PROJECT_DIR$/hello" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/hello/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -131,27 +183,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build helloworld.go">
-    <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build demo.go">
+    <configuration name="go build conc.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLandProjects" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/funAndVar/hello.go" />
+      <filePath value="$PROJECT_DIR$/helloWorldconc/conc.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build helloworld.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build demo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLandProjects" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/hello/helloworld.go" />
+      <filePath value="$PROJECT_DIR$/cmd/pipelineDemo/demo.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build pipeline.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLandProjects" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cmd/pipelineDemo/pipeline.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build rangAndClose.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLandProjects" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/goExample/rangAndClose.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build sort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLandProjects" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/sortDemo/sort.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build helloworld.go" />
-        <item itemvalue="Go Build.go build hello.go" />
+        <item itemvalue="Go Build.go build demo.go" />
+        <item itemvalue="Go Build.go build pipeline.go" />
+        <item itemvalue="Go Build.go build sort.go" />
+        <item itemvalue="Go Build.go build conc.go" />
+        <item itemvalue="Go Build.go build rangAndClose.go" />
       </list>
     </recent_temporary>
   </component>
@@ -165,24 +244,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="37" width="1400" height="754" extended-state="0" />
+    <frame x="701" y="27" width="1400" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.26435935" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.02209131" />
       <window_info id="Structure" order="1" sideWeight="0.5045045" side_tool="true" weight="0.26067746" />
       <window_info id="Favorites" order="2" sideWeight="0.5022523" side_tool="true" weight="0.2569956" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49779087" weight="0.32930514" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4970545" visible="true" weight="0.32930514" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39879155" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49558175" weight="0.32930514" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4874816" weight="0.32930514" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4874816" visible="true" weight="0.32930514" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5125184" side_tool="true" visible="true" weight="0.32930514" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4867452" weight="0.32930514" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4874816" weight="0.32930514" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5029455" side_tool="true" weight="0.32930514" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -243,17 +322,132 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/GoProject/helloWorld/main.go" />
-    <entry file="file://$PROJECT_DIR$/hello/helloworld.go">
+    <entry file="file:///usr/local/go/src/fmt/print.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="132">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/funAndVar/hello.go">
+    <entry file="file:///usr/local/go/src/expvar/expvar.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="139">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/funAndVar/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goroutine/go.go" />
+    <entry file="file:///usr/local/go/src/runtime/asm_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="1332" selection-start-line="1332" selection-end-line="1332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/doc/interface.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/algorithm/sort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/goExample/channelExample.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/hello/helloworld.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" selection-start-line="38" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/goExample/rangAndClose.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/http/httpService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/sortDemo/sort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/helloWorldconc/conc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/pipelineDemo/pipeline.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="17" />
+          <folding>
+            <element signature="e#14#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipeline/nodes.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="94" column="27" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="27" />
+          <folding>
+            <element signature="e#18#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/pipelineDemo/demo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
